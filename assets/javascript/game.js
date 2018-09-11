@@ -48,7 +48,7 @@ function updateDisplay() {
         hasFinished = true;
     }
 };
-document.onkeyup(event) {
+document.onkeyup = function(event) {
     if(hasFinished) {
         resetGame();
         hasFinished = false;
@@ -87,8 +87,8 @@ function evaluateGuess(letter) {
     }
     function checkWin() {
         if (guessingWord.indexOf("_") === -1) {
-            document.getElementById("you-win-image").style.cssText = "display:block";
-            document.getElementById("pressKeyTryAgain").style.cssText = "display:block";
+            document.getElementById("you-win-image").style.cssText = "display: block";
+            document.getElementById("pressKeyTryAgain").style.cssText = "display: block";
             wins++;
             hasFinished = true;
         }
