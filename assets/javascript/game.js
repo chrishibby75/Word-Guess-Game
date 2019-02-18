@@ -6,7 +6,9 @@ var selectableWords = [
     "hickory",
     "mesquite",
     "sauce",
-    "marinade"
+    "marinade",
+    "rotisserie",
+    "charbroil"
 ];
 
 const maxTries = 10;            // Maximum number of tries player has
