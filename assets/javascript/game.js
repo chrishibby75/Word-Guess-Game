@@ -35,6 +35,7 @@ function resetGame() {
     document.getElementById("pressKeyTryAgain").style.cssText= "display: none";
     document.getElementById("game-over-image").style.cssText= "display: none";
     document.getElementById("you-win-image").style.cssText="display: none";
+    // document.getElementById("you-lose-image").style.cssText="display: none";
      // Show display
     updateDisplay();
 };
@@ -106,6 +107,7 @@ function evaluateGuess(letter) {
             wins++;
             hasFinished = true;
         }
+        
     }
     checkWin();
 };

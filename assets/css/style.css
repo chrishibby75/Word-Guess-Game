@@ -29,7 +29,8 @@ body {
     padding: 15px;
 }
 
-#game-over-image, #you-win-image{ 
+#game-over-image, #you-win-image,
+#you-lose-image { 
     display: block;
     margin: 0 auto;
     height: 245px;
@@ -54,7 +55,8 @@ h4,h5,h6 {
 
 #pressKeyTryAgain, 
 #game-over-image, 
-#you-win-image { display: none;}
+#you-win-image
+#you-lose-image { display: none;}
 
 .word-game  {
     background: black;
