@@ -24,19 +24,19 @@ body {
 
 
 #hangman-image {    
-    height: 150px;
-    width: 300px;
-    margin-top: 95px;
+    height: 245px;
+    width: 545px;
+    padding: 15px;
 }
 
 #game-over-image, #you-win-image{ 
     display: block;
     margin: 0 auto;
+    height: 245px;
+    width: 545px;
+    padding: 15px;
 }
     
-    
-
-
 .container { 
     text-align: center;
     
@@ -55,6 +55,7 @@ h4,h5,h6 {
 #pressKeyTryAgain, 
 #game-over-image, 
 #you-win-image { display: none;}
+
 .word-game  {
     background: black;
     border-color: white;

@@ -77,7 +77,7 @@ function makeGuess (letter) {
         }
     }
     updateDisplay();
-    checkWin();
+    
 };
 // This function takes a letter and finds all instances of 
 // appearance in the string and replaces them in the guess word.
@@ -107,4 +107,5 @@ function evaluateGuess(letter) {
             hasFinished = true;
         }
     }
+    checkWin();
 };
